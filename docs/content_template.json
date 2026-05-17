@@ -1,0 +1,94 @@
+[
+  {
+    "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "revisionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "class": "sheet",
+    "rootTopic": {
+      "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "class": "topic",
+      "title": "【项目名】测试用例",
+      "children": {
+        "attached": [
+          {
+            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "class": "topic",
+            "title": "1. 功能模块名",
+            "children": {
+              "attached": [
+                {
+                  "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                  "class": "topic",
+                  "title": "1.1 子功能点",
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                        "class": "topic",
+                        "title": "【正向】用例名称-P0",
+                        "notes": {
+                          "plain": {
+                            "content": "前置条件：xxx\n步骤：1.xxx 2.xxx\n预期：xxx"
+                          }
+                        },
+                        "markers": [
+                          {
+                            "markerId": "priority-1"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                        "class": "topic",
+                        "title": "【反向】用例名称-P0",
+                        "notes": {
+                          "plain": {
+                            "content": "前置条件：xxx\n步骤：1.xxx 2.xxx\n预期：xxx"
+                          }
+                        },
+                        "markers": [
+                          {
+                            "markerId": "priority-1"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                        "class": "topic",
+                        "title": "【边界】用例名称-P1",
+                        "notes": {
+                          "plain": {
+                            "content": "前置条件：xxx\n步骤：1.xxx 2.xxx\n预期：xxx"
+                          }
+                        },
+                        "markers": [
+                          {
+                            "markerId": "priority-2"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                        "class": "topic",
+                        "title": "【场景】端到端场景-P1",
+                        "notes": {
+                          "plain": {
+                            "content": "全流程覆盖测试"
+                          }
+                        },
+                        "markers": [
+                          {
+                            "markerId": "priority-2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+]
